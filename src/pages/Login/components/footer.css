@@ -1,0 +1,14 @@
+.baseboard{
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baseboard h6{
+    color: #ED2590;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
