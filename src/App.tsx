@@ -2,17 +2,17 @@ import React from "react";
 
 import Navbar from "./pages/Profile/components/navbar/Navbar";
 import Profile from "./pages/Profile/components/profile/Profile";
-import InfoWrapper from "./pages/Profile/components/info-wrapper/InfoWrapper";
+import ContentWrapper from "./pages/Profile/components/content-wrapper/ContentWrapper";
 import Information from "./pages/Profile/components/information/Information";
 
 function App() {
   return (
     <>
      <Navbar/>
-    <InfoWrapper>
+    <ContentWrapper>
      <Profile/>
      <Information/>
-    </InfoWrapper>
+    </ContentWrapper>
     </>
   );
 }
