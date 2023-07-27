@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1em;
+  }
+  
+  .navbar input {
+    background-color: #EFF3F8;
+    border: none;
+    border-radius: 8px;
+    width: 355px;
+    padding:1em 2.5em;
+  }
+  
+  .navbar input::placeholder {
+    color:#B4AEAE;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .item {
+    margin-right: 1em;
+    color:#4B4B4B;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 1em;
+    font-size: 18px;
+  }
+  
+  .input_icon {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    position: relative;
+  }
+  
+  .search_icon {
+    color:#B4AEAE;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    margin-left: 0.5rem;
+  }
+  
+  .input_icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .input_icon label {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .profile_icon {
+    color: #ED2590;
+    width: 24px;
+    height: 24px;
+  }

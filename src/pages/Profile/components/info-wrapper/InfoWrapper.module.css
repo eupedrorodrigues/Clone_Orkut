@@ -1,0 +1,9 @@
+.wrapper {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto; /* centraliza na tela */
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
