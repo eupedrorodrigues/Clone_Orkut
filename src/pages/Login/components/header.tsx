@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import Logo from '../../../assets/logo-orkut.svg'
 
 type Props = {}

@@ -21,3 +21,30 @@
     font-weight: 400;
     margin-left: 40px;
 }
+
+@media (min-width: 481px) and (max-width: 768px){
+    .header{
+        justify-content: center;
+    }
+    .navigation a{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .header{
+        justify-content: center;
+    }
+    .navigation a{
+        display: none;
+    }
+}
+
+@media (max-width: 319px){
+    .header{
+        justify-content: center;
+    }
+    .navigation a{
+        display: none;
+    }
+}

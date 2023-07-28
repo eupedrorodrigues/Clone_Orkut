@@ -1,8 +1,7 @@
 .wrapperMain{
-    height: 100%;
+    height: 850px;
     background: #D8E6F2;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 120px;
 }
 
 .wrapperCards{
@@ -10,4 +9,54 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (min-width: 1680px) and (max-width: 1920px){
+    .wrapperCards{
+        padding-bottom: 12.5%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px){
+    .wrapperCards{
+        padding-bottom: 14%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    .wrapperCards{
+        padding-bottom: 14%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .wrapperCards{
+        padding-bottom: 16%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .wrapperCards{
+        padding-bottom: 16%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .wrapperCards{
+        padding-bottom: 16%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .wrapperCards{
+        padding-bottom: 25%;
+    }
+}
+
+@media (max-width: 319px){
+    .wrapperCards{
+        padding-bottom: 30%;
+    }
 }
