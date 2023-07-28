@@ -1,5 +1,5 @@
 import React from 'react';
-import './myFormLogin.css';
+import './MyFormLogin.css';
 import Icon from '../../../assets/ps_orkut.svg'
 
 type Props = {}
@@ -17,7 +17,7 @@ const myFormLogin = (props: Props) => {
                 <input placeholder='Senha' type="password" required/>
             </div>
             <div className='rememberMe'>
-                <label className='checkbox'><span><input type="checkbox" /></span>Lembrar minha senha</label>
+                <label className='checkbox'><span><input type="checkbox"/></span>Lembrar minha senha</label>
             </div>
             <button className='btnLogin'>Entrar na conta</button>
             <div className='btnCreate'>

@@ -20,13 +20,21 @@
     display: inline-block;
 }
 
-.textInGradient{
+.wrapperText{
     position: absolute;
     display: flex;
+    width: 700px;
+    bottom: 80px;
+    left: 32px;
+    z-index: 2;
+}
+
+.textInGradient{
     color: #FFF;
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 500;
+    text-align: left;
     line-height: normal;
 }
 
@@ -37,3 +45,108 @@
     opacity: 0.7200000286102295;
     background: linear-gradient(189deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%);
 }
+
+
+@media (min-width: 1921px){
+    .containerRight{
+        width: 800px;
+    }
+    .wrapperText{
+        width: 700px;
+    }
+    .textInGradient{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px){
+    .containerRight{
+        width: 800px;
+    }
+    .wrapperText{
+        width: 700px;
+    }
+    .textInGradient{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px){
+    .containerRight{
+        width: 700px;
+    }
+    .wrapperText{
+        width: 600px;
+        bottom: 80px;
+        left: 82px;
+    }
+    .textInGradient{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    .containerRight{
+        width: 700px;
+    }
+    .wrapperText{
+        width: 600px;
+        bottom: 80px;
+        left: 82px;
+    }
+    .textInGradient{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .containerRight{
+        width: 600px;
+    }
+    .wrapperText{
+        width: 550px;
+        bottom: 80px;
+        left: 132px;
+    }
+    .textInGradient{
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .containerRight{
+        display: none;
+    }
+    .wrapperText{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .containerRight{
+        display: none;
+    }
+    .wrapperText{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .containerRight{
+        display: none;
+    }
+    .wrapperText{
+       display: none;
+    }
+}
+
+@media (max-width: 319px){
+    .containerRight{
+        display: none;
+    }
+    .wrapperText{
+        display: none;
+    }
+    
+}
+

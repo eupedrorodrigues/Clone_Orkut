@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Login from './pages/Login/login'
+import ScreenLogin from './pages/Login/Login'
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <ScreenLogin />
     </div>
   );
 }
