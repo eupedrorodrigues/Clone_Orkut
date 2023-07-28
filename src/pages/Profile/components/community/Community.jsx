@@ -1,5 +1,5 @@
 
-import  styles from "../network/Network.module.css";
+import  styles from "./Community.module.css";
 
 function Community(props) {
     
