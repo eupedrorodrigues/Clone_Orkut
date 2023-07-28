@@ -75,7 +75,7 @@
 }
 
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .list,
   .input_icon input,
   .input_icon label,
@@ -98,11 +98,9 @@
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .list,
-  .input_icon input,
-  .input_icon label,
-  .search_icon {
+
+@media (min-width:769px) and (max-width:1200px) {
+  .list {
     display: none;
   }
   .input_icon img {
@@ -117,12 +115,5 @@
   
   .navbar img {
     width: 100px;
-  }
-
-}
-
-@media (min-width:769px) and (max-width:1200px) {
-  .list {
-    display: none;
   }
 }
