@@ -20,25 +20,36 @@ function Information() {
           ></input>
         </header>
         <section>
-          <ul className={styles.list}>
-            <li className={styles.items}>Fãs</li>
-            <li className={styles.items}>Confiável</li>
-            <li className={styles.items}>Legal</li>
-            <li className={styles.items}>Sexy</li>
-          </ul>
+          <section className={styles.info_section}>
+            <p>Fãs</p>
+            <p>Confiável</p>
+            <p>Legal</p>
+            <p>Sexy</p>
+          </section>
+
           <div className={styles.icons}>
             <img src={star} alt="fans-icon" />
+            <img src={star} alt="fans-icon" />
+          </div>
+
+          <div className={styles.icons}>
             <img src={smile} alt="fans-icon" />
             <img src={smile} alt="fans-icon" />
+          </div>
+
+          <div className={styles.icons}>
             <img src={thumb} alt="fans-icon" />
             <img src={thumb} alt="fans-icon" />
             <img src={thumb} alt="fans-icon" />
+          </div>
+
+          <div className={styles.icons}>
             <img src={heart} alt="fans-icon" />
             <img src={heart} alt="fans-icon" />
           </div>
         </section>
         <section>
-          <Field/>
+          <Field />
         </section>
       </section>
     </>
