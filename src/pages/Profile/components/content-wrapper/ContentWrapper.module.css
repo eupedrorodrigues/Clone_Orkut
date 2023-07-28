@@ -1,5 +1,5 @@
 .wrapper {
-    width: 1200px;
+    width: 1300px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -7,3 +7,4 @@
     flex-wrap: wrap;
     margin-top: 80px;
 }
+
