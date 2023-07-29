@@ -24,6 +24,10 @@
   list-style: none;
 }
 
+.list li:nth-child(2) {
+  color:#ed2590;
+}
+
 .item {
   margin-right: 1em;
   color: #4b4b4b;
