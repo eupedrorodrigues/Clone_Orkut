@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContainerRight.css';
+import './containerRight.css';
 import People from '../../../assets/unsplash_g1Kr4Ozfoac.svg'
 
 type Props = {}

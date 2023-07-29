@@ -1,7 +1,7 @@
 import React from 'react'
-import './Main.css'
-import ContainerRight from './ContainerRight'
-import MyFormLogin from './MyFormLogin'
+import './main.css'
+import ContainerRight from './containerRight'
+import MyFormLogin from './myFormLogin'
 
 type Props = {}
 
