@@ -64,7 +64,7 @@
 }
 
 
-@media screen and (min-width:319px) and (max-width:320px) {
+@media screen and (max-width:319px) {
   .list,
   .input_icon input,
   .input_icon img,
@@ -75,7 +75,7 @@
 }
 
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .list,
   .input_icon input,
   .input_icon label,
@@ -107,10 +107,13 @@
     width: 40px;
     height: 40px;
   }
-
+  
   .profile_icon {
     width: 2em;
-    margin-left: -20px;
+  }
+
+  .input_icon label {
+    margin-left: -1em;
   }
   
   .navbar img {
