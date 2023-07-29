@@ -59,7 +59,21 @@
   align-items: center;
 }
 
-@media (min-width:768px) and (max-width:1300px) {
+@media screen and (max-width:319px) {
+  .network{
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .big_wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2em;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
   .network {
     transform: translate(-1em,-35em);
   }

@@ -16,7 +16,6 @@
   
   .network:nth-child(2) {
     margin-top: 2rem;
-    
   }
   
   .network_info h1,
@@ -59,7 +58,19 @@
     align-items: center;
   }
 
-  @media (min-width:768px) and (max-width:1300px) {
+  @media screen and (max-width:319px) {
+    .network{
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .network:nth-child(2) {
+      margin-top: 0;
+    }
+  }
+  
+  @media (min-width:1024px) and (max-width:1200px) {
     .network {
       transform: translate(-1em,-35em);
     }
