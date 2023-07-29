@@ -1,32 +1,22 @@
-import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./pages/Profile/components/navbar/Navbar";
-import Profile from "./pages/Profile/components/profile/Profile";
-import ContentWrapper from "./pages/Profile/components/content-wrapper/ContentWrapper";
-import Information from "./pages/Profile/components/information/Information";
-import Network from "./pages/Profile/components/network/Network";
+import Home from "./pages/Profile/Home";
 import ScreenLogin from './pages/Login/login'
 import  Register from './pages/Register/Register'
 import  FormRegister from './pages/FormRegister/FormRegister'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //<Routes>: indicates the routes
+    //<Route>: indicates each specific route
+    <Router>
+      <Routes>   
+       <Route path="/" element={<ScreenLogin/>}/>  
+       <Route path="/home" element={<Home/>}/>  
+       <Route path="/register" element={<Register/>}/>  
+       <Route path="/formRegister" element={<FormRegister/>}/>  
+      </Routes>
+    </Router>
   );
 }
 
