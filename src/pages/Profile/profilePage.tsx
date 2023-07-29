@@ -6,7 +6,7 @@ import Network from "./components/network/Network";
 
 type Props = {}
 
-function Home({}: Props) {
+function profilePage({}: Props) {
   return (
     <>
      <Navbar/>
@@ -19,4 +19,4 @@ function Home({}: Props) {
   );
 }
 
-export default Home;
+export default profilePage;
