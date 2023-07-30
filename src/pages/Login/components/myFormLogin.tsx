@@ -1,27 +1,49 @@
-import React from 'react';
-import './myFormLogin.css';
+import './MyFormLogin.css';
 import Icon from '../../../assets/ps_orkut.svg'
+import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 type Props = {}
 
-const myFormLogin = (props: Props) => {
+const MyFormLogin = (props: Props) => {
+    
+    const navigate = useNavigate();
+    const [email,setEmail] = useState("")
+    const [password,setPassword] = useState("")
+
+    const handleLogin = () => {
+        if (!email || !password){
+            console.log('Error: Preencha todos os campos')
+        }else{
+            navigate('/pages/Profile')
+        }
+    }
+
   return (
     <div className='formBox'>
         <img style={{margin: '10px'}} src={Icon} alt="" /> 
         <h2>Acesse o Orkut</h2>
-        <form action="#">
+        <form method='post'>
             <div className='inputBox'>
-                <input placeholder='Email' type="email" required/>
+                <input 
+                placeholder='Email' 
+                type="email" 
+                onChange={(e) => setEmail(e.target.value)} 
+                required/>
             </div>
             <div className='inputBox'>
-                <input placeholder='Senha' type="password" required/>
+                <input 
+                placeholder='Senha' 
+                type="password" 
+                onChange={(e) => setPassword(e.target.value)} 
+                required/>
             </div>
             <div className='rememberMe'>
-                <label className='checkbox'><span><input type="checkbox"/></span>Lembrar minha senha</label>
+                <label className='checkbox'><span><input type="checkbox" required/></span>Lembrar minha senha</label>
             </div>
-            <button className='btnLogin'>Entrar na conta</button>
+            <button className='btnLogin' onClick={handleLogin}>Entrar na conta</button>
             <div className='btnCreate'>
-                <a href="">Criar uma conta</a>
+                <Link  to="/pages/Register">Criar uma conta</Link>
             </div>
             <div className='forgot'>
                 <a href="">Esqueci minha senha</a>
@@ -31,4 +53,4 @@ const myFormLogin = (props: Props) => {
   )
 }
 
-export default myFormLogin;
+export default MyFormLogin;

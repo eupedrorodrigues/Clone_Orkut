@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: #fff;
+    background: #FDFEFF;
 }
 
 .formBox h2{
@@ -79,13 +79,20 @@
     margin-bottom: 24px;
 }
 
+.btnLogin:hover{
+    background: #a41762;
+}
+
 .btnCreate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 41px;
     border: none;
     outline: none;
     border-radius: 6px;
-    background: #fff;
+    background: #FDFEFF;
     margin-bottom: 22px;
 }
 
@@ -95,7 +102,13 @@
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;  
+}
+
+.forgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .forgot a{

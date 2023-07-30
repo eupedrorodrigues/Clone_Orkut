@@ -1,24 +1,25 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import ProfilePage from "./pages/Profile/profilePage";
-import ScreenLogin from './pages/Login/login'
+import ScreenLogin from './pages/Login/Login'
 import  Register from './pages/Register/Register'
 import  FormRegister from './pages/FormRegister/FormRegister'
 import  EditProfile from './pages/EditProfile/EditProfile'
 
-function App() {
+type Props = {}
+
+const App = (props: Props) => {
   return (
-    //<Routes>: indicates the routes
-    //<Route>: indicates each specific route
     <Router>
       <Routes>   
-       <Route path="/" element={<ScreenLogin/>}/>  
-       <Route path="/profile" element={<ProfilePage/>}/>  
-       <Route path="/register" element={<Register/>}/>  
-       <Route path="/formRegister" element={<FormRegister/>}/>  
+        <Route path="/" element={<ScreenLogin/>}/>  
+        <Route path="/pages/Register" element={<Register/>}/>  
+        <Route path="/pages/FormRegister" element={<FormRegister/>}/>  
+        <Route path="/pages/Profile" element={<ProfilePage/>}/>  
+        <Route path="/pages/EditProfile" element={<EditProfile/>}/>  
       </Routes>
-    </Router>
-  );
+  </Router>
+  )
 }
 
-export default App;
+export default App

@@ -1,9 +1,9 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 
 type Props = {}
 
-function footer({}: Props) {
+function Footer({}: Props) {
   return (
     <footer className='baseboard'>
         <h6>&copy; Todos os direitos reservados</h6>
@@ -11,4 +11,4 @@ function footer({}: Props) {
   )
 }
 
-export default footer;
+export default Footer;

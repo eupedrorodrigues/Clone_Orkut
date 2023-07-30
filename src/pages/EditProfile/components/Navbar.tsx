@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react'
 import { FaSistrix } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
-
 import styles from "./Navbar.module.css";
-import nav_profile from "../../../../assets/iuricode 1.svg";
-import logo from "../../../../assets/logo-orkut.svg";
+import nav_profile from "../../../assets/iuricode 1.svg";
+import logo from "../../../assets/logo-orkut.svg";
 
-import Container from "../container/Container";
+import Container from "../../Profile/components/container/Container";
 
-function Navbar() {
+type Props = {}
+
+const Navbar = (props: Props) => {
   return (
     <nav className={styles.navbar}>
       <Container>
@@ -20,7 +21,7 @@ function Navbar() {
           <li className={styles.item}>Jogos</li>
         </ul>
         <div className={styles.input_icon}>
-          <input style={{outline: 'none'}} type="text" placeholder="Pesquisar no Orkut" readOnly />
+          <input type="text" style={{outline: 'none'}} placeholder="Pesquisar no Orkut" />
           <FaSistrix className={styles.search_icon} />
         </div>
         <div className={styles.input_icon}>
@@ -30,7 +31,7 @@ function Navbar() {
         </div>
       </Container>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar

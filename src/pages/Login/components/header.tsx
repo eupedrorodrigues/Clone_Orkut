@@ -1,10 +1,10 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 import Logo from '../../../assets/logo-orkut.svg'
 
 type Props = {}
 
-function header({}: Props) {
+function Header({}: Props) {
   return (
     <div>
         <header className='header'>
@@ -18,4 +18,4 @@ function header({}: Props) {
   )
 }
 
-export default header;
+export default Header;

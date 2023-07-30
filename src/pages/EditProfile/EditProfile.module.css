@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     background: #D8E6F2;
+    padding-top: 5%;
 }
 
 .wrapperFormFull{
@@ -17,7 +18,7 @@
     height:640px;
     display: flex;
     justify-content: space-evenly;
-    background: #fff;
+    background: #FDFEFF;
     border-radius: 16px;
     margin-bottom: 4em;
 }
@@ -34,18 +35,11 @@
 .textHover{
     position: absolute;
     color:#Ed2590;
-    z-index: 3;
+    z-index: 2;
 }
 
-.textHover:hover{
-    color:#Ed2590;
-}
-
-.divImg img {
-    width: 120px;
-}
-
-.divImg:hover{
+.divImg{
+    position: absolute;
     cursor: pointer;
     background: #000;
     opacity: 100%;
@@ -53,9 +47,10 @@
     border-radius: 100%;
     z-index: 1;
     transition: 0.3s;
+    border: 1px solid #Ed2590; 
 }
 
-.divImg img:hover{
+.divImg img{
     position: relative;
     opacity: 50%;
     z-index: -0.9;
@@ -63,39 +58,82 @@
 }
 
 .wrapperFormBtn{
-    margin-top: 1.5em;
-    margin-right: 2.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnEdit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 120%;
     height: 30px;
     background: #Ed2590;
     color: #fff;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
     margin-top: 1.5em;
+    text-decoration: none;
 }
 
-@media screen and (max-width:319px) {
+.btnEdit:hover{
+    background: #a41762;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
     .wrapperFormFull{
-        width: 300px;
-        height:320px;
-        flex-direction: column;
-    }
-
-    .divImg img {
-        width: 160px;
-    }
-
-    .wrapperFormBtn{
-     margin-left: 2.5em;
-    }
-
-    .btnEdit{
         width: 90%;
-        height: 40px;   
-        border-radius: 10px;
-        font-size: 1em;
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 120%;
+        
     }
 }
+
+ 
+
+@media (min-width: 320px) and (max-width: 480px){
+    .wrapperFormFull{
+        width: 85%;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 85%;
+        
+    }
+}
+
+ 
+
+@media (max-width: 319px){
+    .wrapperFormFull{
+        width: 480px;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 80%;
+    }
+}
+

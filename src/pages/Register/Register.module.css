@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #fff;
+    background: #FDFEFF;
 }
 
 
@@ -72,6 +72,7 @@
 }
 
 .baseboard{
+    background: #FDFEFF;
     height: 50px;
     display: flex;
     justify-content: center;

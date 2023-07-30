@@ -1,11 +1,11 @@
 import React from 'react'
-import './main.css'
-import ContainerRight from './containerRight'
-import MyFormLogin from './myFormLogin'
+import './Main.css'
+import ContainerRight from './ContainerRight'
+import MyFormLogin from './MyFormLogin'
 
 type Props = {}
 
-function main({}: Props) {
+function Main({}: Props) {
   return (
     <div>
         <main className='wrapperMain'>
@@ -18,4 +18,4 @@ function main({}: Props) {
   )
 }
 
-export default main
+export default Main

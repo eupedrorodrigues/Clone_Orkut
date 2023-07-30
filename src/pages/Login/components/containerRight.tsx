@@ -1,10 +1,10 @@
 import React from 'react';
-import './containerRight.css';
+import './ContainerRight.css';
 import People from '../../../assets/unsplash_g1Kr4Ozfoac.svg'
 
 type Props = {}
 
-function containerRight({}: Props) {
+function ContainerRight({}: Props) {
   return (
     <div>
         <div className='containerRight'>
@@ -22,4 +22,4 @@ function containerRight({}: Props) {
   )
 }
 
-export default containerRight;
+export default ContainerRight;

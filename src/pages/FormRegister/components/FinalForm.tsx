@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './FinalForm.module.css'
 import Profile from '../../../assets/profile.svg'
+import { useNavigate } from 'react-router-dom'
 
 type Props = {}
 
 const FinalForm = (props: Props) => {
+  
+  const navigateForm = useNavigate()
+  const [biography, setBiography] = useState('');
+  const [interests, setInterests] = useState('');
+  const [status, setStatus] = useState('');
+  const [children, setchildren] = useState('');
+  const [habits, setHabits] = useState('');
+  const [music, setMusic] = useState('');
+  const [movie, setMovie] = useState('');
+
+  const eventFormRegister = () => {
+    if (!biography|| !interests || !status || !children || !habits || !music || !movie){
+      console.log('Error: Preencha todos os campos')
+    }else{
+      navigateForm('/pages/Profile')
+    }
+  }
+    
+
   return (
     <div className={styles.formBox}>
       <div className={styles.divImg}>
@@ -12,13 +32,22 @@ const FinalForm = (props: Props) => {
       </div>
       <form>
         <div className={styles.inputBox}>
-          <textarea name='biography' placeholder=' Biografia' required/>
+          <textarea 
+          name='biography' 
+          placeholder=' Biografia' 
+          onChange={(e) => setBiography(e.target.value)}
+          required/>
         </div>
         <div className={styles.inputBox}>
-          <input type='text' name='interests' placeholder=' Interesses' required/>
+          <input 
+          type='text' 
+          name='interests'
+          placeholder='Interesses' 
+          onChange={(e) => setInterests(e.target.value)}
+          required/>
         </div>
         <div className={styles.inputBox}>
-          <select name="relationship" required>
+          <select name="relationship"  onChange={(e) => setStatus(e.target.value)} required>
             <option value="single"> Status de Relacionamento</option>
             <option value="single">Solteiro</option>
             <option value="serious">Relacionamento sério</option>
@@ -27,7 +56,7 @@ const FinalForm = (props: Props) => {
           </select>
         </div>
         <div className={styles.inputBox}>
-          <select name="childrens" required>
+          <select name="childrens"  onChange={(e) => setchildren(e.target.value)} required>
             <option value="children"> Filhos</option>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -38,7 +67,7 @@ const FinalForm = (props: Props) => {
           </select>
         </div>
         <div className={styles.inputBox}>
-          <select name="health" required>
+          <select name="health"  onChange={(e) => setHabits(e.target.value)} required>
             <option value="habits"> Hábitos Saudáveis</option>
             <option value="hydration">Hidratação</option>
             <option value="sports">Praticar esportes</option>
@@ -47,13 +76,23 @@ const FinalForm = (props: Props) => {
           </select>
         </div>
         <div className={styles.inputBox}>
-          <input type='text' name='song' placeholder=' Música favorita' required/>
+          <input 
+          type='text' 
+          name='song' 
+          placeholder=' Música favorita'
+          onChange={(e) => setMusic(e.target.value)} 
+          required/>
         </div>
         <div className={styles.inputBox}>
-          <input type='text' name='movie' placeholder=' Filme favorito' required/>
+          <input 
+          type='text' 
+          name='movie' 
+          placeholder=' Filme favorito' 
+          onChange={(e) => setMovie(e.target.value)}
+          required/>
         </div>
         <div>
-          <button className={styles.btnLogin}>Confirmar conta</button>
+          <button className={styles.btnLogin} onClick={eventFormRegister}>Confirmar conta</button>
         </div>
       </form>
     </div>
