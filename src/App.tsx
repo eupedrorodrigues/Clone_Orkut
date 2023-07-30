@@ -4,6 +4,7 @@ import ProfilePage from "./pages/Profile/profilePage";
 import ScreenLogin from './pages/Login/login'
 import  Register from './pages/Register/Register'
 import  FormRegister from './pages/FormRegister/FormRegister'
+import  EditProfile from './pages/EditProfile/EditProfile'
 
 function App() {
   return (
