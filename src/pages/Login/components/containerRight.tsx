@@ -9,6 +9,11 @@ function containerRight({}: Props) {
     <div>
         <div className='containerRight'>
             <div className='imageGradient'>
+              <div className='wrapperText'>
+                <p className='textInGradient'>
+                  Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas
+                </p>
+              </div>
                 <div className='darkGradient'></div>
                 <img style={{display: 'block'}} src={People} alt="" />
             </div>

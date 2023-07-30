@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css'
+import './footer.css';
 
 type Props = {}
 
@@ -11,4 +11,4 @@ function footer({}: Props) {
   )
 }
 
-export default footer
+export default footer;
