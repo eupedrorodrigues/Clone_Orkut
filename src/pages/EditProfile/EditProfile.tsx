@@ -11,7 +11,7 @@ const EditProfile = (props: Props) => {
       <div className={styles.wrapperFormFull}>
         <div className={styles.divImg}>
           <span className={styles.textHover}>Editar</span>
-          <img src={Profile} alt="name_image" width={120}/>
+          <img src={Profile} alt="name_image" />
         </div>
         <div className={styles.wrapperFormBtn}>
           <FormEditProfile />

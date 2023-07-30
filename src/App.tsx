@@ -9,9 +9,6 @@ import  EditProfile from './pages/EditProfile/EditProfile'
 function App() {
   return (
     <div className="App">
-      {/* <Login /> */}
-      {/* <Register /> */}
-      {/* <FormRegister/> */}
       <EditProfile/>
     </div>
   );
