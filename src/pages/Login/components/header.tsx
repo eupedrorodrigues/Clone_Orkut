@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
 import Logo from '../../../assets/logo-orkut.svg'
 
 type Props = {}
@@ -7,9 +7,9 @@ type Props = {}
 function Header({}: Props) {
   return (
     <div>
-        <header className='header'>
+        <header className={styles.header}>
            <img src={Logo} alt="Logo Orkut" /> 
-            <nav className='navigation'>
+            <nav className={styles.navigation}>
                 <a href="">Sobre o Orkut</a>
                 <a href="">Centro de segurança</a>
             </nav>

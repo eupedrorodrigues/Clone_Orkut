@@ -1,5 +1,5 @@
 import React from 'react'
-import './Main.css'
+import styles from './Main.module.css'
 import ContainerRight from './ContainerRight'
 import MyFormLogin from './MyFormLogin'
 
@@ -8,8 +8,8 @@ type Props = {}
 function Main({}: Props) {
   return (
     <div>
-        <main className='wrapperMain'>
-            <div className='wrapperCards'>
+        <main className={styles.wrapperMain}>
+            <div className={styles.wrapperCards}>
                 <ContainerRight />
                 <MyFormLogin /> 
             </div>

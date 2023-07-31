@@ -1,5 +1,5 @@
-import './MyFormLogin.css';
 import Icon from '../../../assets/ps_orkut.svg'
+import styles from './MyFormLogin.module.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -20,32 +20,32 @@ const MyFormLogin = (props: Props) => {
     }
 
   return (
-    <div className='formBox'>
+    <div className={styles.formBox}>
         <img style={{margin: '10px'}} src={Icon} alt="" /> 
         <h2>Acesse o Orkut</h2>
-        <form method='post'>
-            <div className='inputBox'>
+        <form>
+            <div className={styles.inputBox}>
                 <input 
                 placeholder='Email' 
                 type="email" 
                 onChange={(e) => setEmail(e.target.value)} 
                 required/>
             </div>
-            <div className='inputBox'>
+            <div className={styles.inputBox}>
                 <input 
                 placeholder='Senha' 
                 type="password" 
                 onChange={(e) => setPassword(e.target.value)} 
                 required/>
             </div>
-            <div className='rememberMe'>
-                <label className='checkbox'><span><input type="checkbox" required/></span>Lembrar minha senha</label>
+            <div className={styles.rememberMe}>
+                <label className={styles.checkbox}><span><input type="checkbox" required/></span>Lembrar minha senha</label>
             </div>
-            <button className='btnLogin' onClick={handleLogin}>Entrar na conta</button>
-            <div className='btnCreate'>
+            <button className={styles.btnLogin} onClick={handleLogin}>Entrar na conta</button>
+            <div className={styles.btnCreate}>
                 <Link  to="/pages/Register">Criar uma conta</Link>
             </div>
-            <div className='forgot'>
+            <div className={styles.forgot}>
                 <a href="">Esqueci minha senha</a>
             </div>
         </form>
