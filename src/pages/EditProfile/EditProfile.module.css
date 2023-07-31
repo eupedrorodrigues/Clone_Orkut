@@ -21,13 +21,13 @@ h1 {
 
 .wrapperFormFull{
     width: 600px;
-    height:640px;
+    height:700px;
     display: flex;
     justify-content: space-evenly;
     background: #FDFEFF;
     border-radius: 16px;
-    margin-bottom: 10em;
-    transform: translateY(10%);
+    margin-bottom: 8em;
+    transform: translateY(5%);
 }
 
 .divImg{

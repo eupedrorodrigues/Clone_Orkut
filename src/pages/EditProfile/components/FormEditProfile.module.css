@@ -71,6 +71,7 @@
 @media (min-width: 481px) and (max-width: 768px){
     .wrapperForm{
         width: 120%;
+        margin-top: 1em;
     }
     
 }
