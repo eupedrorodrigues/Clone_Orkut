@@ -72,6 +72,6 @@
   
   @media (min-width:1024px) and (max-width:1200px) {
     .network {
-      transform: translate(-1em,-35em);
+      transform: translate(-1em,-34em);
     }
   } 

@@ -23,15 +23,11 @@
     transform: translate(15%);
     width: 80%;
   }
-
-  @media (min-width: 1440px) and (max-width: 1680px) {
-    .wrapper {
-      width: 85%;
-    }
+  
   }
   @media (min-width: 1680px) and (max-width: 1920px) {
     .wrapper {
       width: 75%;
     }
   }
-}
+
