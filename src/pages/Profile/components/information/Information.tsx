@@ -18,10 +18,11 @@ function Information(props: Props) {
           <input
             type="text"
             placeholder="Programar sem café é igual poeta sem poesia."
+            style={{width: '90%'}}
             readOnly
           ></input>
         </header>
-        <section>
+        <section className={styles.wrapperInfoSection}>
           <section className={styles.info_section}>
             <p>Fãs</p>
             <p>Confiável</p>

@@ -70,8 +70,13 @@ const InitialForm = (props: Props) => {
           required />
         </div>
         <div className={styles.rememberMe}>
+          <span>
+            <span className={styles.checkColor}>
+              <input type="checkbox" required/>
+            </span>
+          </span>
           <label className={styles.checkbox}>
-            <span><input type="checkbox" required/></span> Aceito os termos de contrato
+             Aceito os termos de contrato
           </label>
         </div>
         <button className={styles.btnLogin} onClick={handleRegister}>Criar uma conta</button>

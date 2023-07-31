@@ -3,6 +3,7 @@ import styles from './EditProfile.module.css'
 import FormEditProfile from './components/FormEditProfile'
 import Profile from '../../assets/profile.svg'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { Link } from 'react-router-dom'
 
 type Props = {};
@@ -23,6 +24,7 @@ const EditProfile = (props: Props) => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

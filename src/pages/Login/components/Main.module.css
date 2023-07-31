@@ -1,7 +1,7 @@
 .wrapperMain{
     height: 850px;
     background: #D8E6F2;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 
 .wrapperCards{
@@ -10,3 +10,4 @@
     justify-content: center;
     align-items: center;
 }
+

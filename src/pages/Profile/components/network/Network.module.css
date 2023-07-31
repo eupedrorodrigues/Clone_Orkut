@@ -1,6 +1,8 @@
 .big_wrapper {
   display:flex ;
   flex-direction:column;
+  align-items: center;
+  justify-content: center;
 }
 
 .network {
@@ -59,11 +61,7 @@
   align-items: center;
 }
 
-@media screen and (max-width:319px) {
-  .network{
-    display: none;
-  }
-}
+
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .big_wrapper {
@@ -78,3 +76,15 @@
     transform: translate(-1em,-34em);
   }
 } 
+
+@media (min-width: 481px) and (max-width: 768px){
+  .network{
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width:319px) {
+  .network{
+    width: 90%;
+  }
+}

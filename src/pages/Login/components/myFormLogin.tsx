@@ -39,7 +39,14 @@ const MyFormLogin = (props: Props) => {
                 required/>
             </div>
             <div className={styles.rememberMe}>
-                <label className={styles.checkbox}><span><input type="checkbox" required/></span>Lembrar minha senha</label>
+                <span>
+                    <span className={styles.checkColor}>
+                        <input type="checkbox" required/>
+                    </span>
+                </span>
+                <label className={styles.checkbox}>
+                    Lembrar minha senha
+                </label>
             </div>
             <button className={styles.btnLogin} onClick={handleLogin}>Entrar na conta</button>
             <div className={styles.btnCreate}>

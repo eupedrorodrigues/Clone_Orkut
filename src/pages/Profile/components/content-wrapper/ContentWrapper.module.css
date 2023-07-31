@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   margin-top: 80px;
   margin-bottom: 4em;
+  
 }
 
 @media screen and (max-width:319px) {
@@ -15,6 +16,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
+  
   .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

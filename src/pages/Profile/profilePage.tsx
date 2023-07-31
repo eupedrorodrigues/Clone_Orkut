@@ -3,6 +3,7 @@ import Profile from "./components/profile/Profile";
 import ContentWrapper from "./components/content-wrapper/ContentWrapper";
 import Information from "./components/information/Information";
 import Network from "./components/network/Network";
+import Footer from "../Login/components/Footer";
 
 type Props = {}
 
@@ -15,6 +16,7 @@ function profilePage({}: Props) {
      <Information/>
      <Network title="Amigos (248)" viewAll="Ver todos"/>
     </ContentWrapper>
+    <Footer />
     </>
   );
 }
