@@ -18,6 +18,11 @@ The designer was designed by design [Iuri Silva](https://www.instagram.com/iuric
   git clone 
   cd Clone_Orkut
   ```
+* Install project dependencies
+
+  ```bash
+  yarn install
+  ```
 * To run the project, type in the terminal
 
   ```bash
