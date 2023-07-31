@@ -22,6 +22,8 @@ The designer was designed by design [Iuri Silva](https://www.instagram.com/iuric
 
   ```bash
   yarn install
+      or
+  npm install
   ```
 * To run the project, type in the terminal
 
