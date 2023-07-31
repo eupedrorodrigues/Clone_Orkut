@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Login from './pages/Login/login'
+import ScreenLogin from './pages/Login/Login'
 import  Register from './pages/Register/Register'
 import  FormRegister from './pages/FormRegister/FormRegister'
 import  EditProfile from './pages/EditProfile/EditProfile'
@@ -9,7 +9,10 @@ import  EditProfile from './pages/EditProfile/EditProfile'
 function App() {
   return (
     <div className="App">
-      <EditProfile/>
+      {/* <ScreenLogin /> */}
+      {/* <Register /> */}
+      {/* <FormRegister/> */}
+      {/* <EditProfile/> */}
     </div>
   );
 }

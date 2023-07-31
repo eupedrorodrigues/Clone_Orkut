@@ -68,8 +68,25 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width:319px) {
-    .wrapperForm {
-        display: none;
+
+@media (min-width: 481px) and (max-width: 768px){
+    .wrapperForm{
+        width: 120%;
+    }
+}
+
+ 
+
+@media (min-width: 320px) and (max-width: 480px){
+    .wrapperForm{
+        width: 85%;
+    }
+}
+
+ 
+
+@media (max-width: 319px){
+    .wrapperForm{
+        width: 80%;
     }
 }

@@ -40,18 +40,11 @@ h1 {
 .textHover{
     position: absolute;
     color:#Ed2590;
-    z-index: 3;
+    z-index: 2;
 }
 
-.textHover:hover{
-    color:#Ed2590;
-}
-
-.divImg img {
-    width: 120px;
-}
-
-.divImg:hover{
+.divImg{
+    position: absolute;
     cursor: pointer;
     background: #000;
     opacity: 100%;
@@ -59,9 +52,10 @@ h1 {
     border-radius: 100%;
     z-index: 1;
     transition: 0.3s;
+    border: 1px solid #Ed2590; 
 }
 
-.divImg img:hover{
+.divImg img{
     position: relative;
     opacity: 50%;
     z-index: -0.9;
@@ -69,8 +63,10 @@ h1 {
 }
 
 .wrapperFormBtn{
-    margin-top: 1.5em;
-    margin-right: 2.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btnEdit{
@@ -80,29 +76,66 @@ h1 {
     color: #fff;
     border-radius: 8px;
     border: none;
-    margin-top: 3em;
     cursor: pointer;
+    margin-top: 3em;
+
 }
 
-@media screen and (max-width:319px) {
+.btnEdit:hover{
+    background: #8b1a56;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
     .wrapperFormFull{
-        width: 300px;
-        height:320px;
-        flex-direction: column;
-    }
-
-    .divImg img {
-        width: 160px;
-    }
-
-    .wrapperFormBtn{
-     margin-left: 2.5em;
-    }
-
-    .btnEdit{
         width: 90%;
-        height: 40px;   
-        border-radius: 10px;
-        font-size: 1em;
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 120%;
+        
     }
 }
+
+ 
+
+@media (min-width: 320px) and (max-width: 480px){
+    .wrapperFormFull{
+        width: 85%;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 85%;
+        
+    }
+}
+
+ 
+
+@media (max-width: 319px){
+    .wrapperFormFull{
+        width: 480px;
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImg{
+        width: 8em;
+    }
+    .btnEdit{
+        width: 80%;
+    }
+}
+

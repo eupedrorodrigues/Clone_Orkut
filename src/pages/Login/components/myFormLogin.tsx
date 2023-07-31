@@ -1,5 +1,5 @@
 import React from 'react';
-import './myFormLogin.css';
+import './MyFormLogin.css';
 import Icon from '../../../assets/ps_orkut.svg'
 
 type Props = {}
