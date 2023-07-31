@@ -5,7 +5,8 @@
 
 The designer was designed by design [Iuri Silva](https://www.instagram.com/iuricode/) and can be on [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=171980-3522&mode=design&t=ukPA5HGeYBaGWiMJ-0)
 
-![Alt text](image.png)
+![image](https://github.com/eupedrorodrigues/Clone_Orkut/assets/122948103/d6bd003f-d6ec-483a-91ed-0f5ffe725efb)
+
 
 ## :woman_office_worker::man_office_worker: Settings and commands
 
