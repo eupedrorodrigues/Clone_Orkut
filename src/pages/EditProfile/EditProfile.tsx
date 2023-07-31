@@ -5,7 +5,7 @@ import Profile from '../../assets/profile.svg'
 import Navbar from './components/Navbar'
 import { Link } from 'react-router-dom'
 
-type Props = {}
+type Props = {};
 
 const EditProfile = (props: Props) => {
   return (

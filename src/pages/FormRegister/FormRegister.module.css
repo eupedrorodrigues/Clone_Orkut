@@ -38,6 +38,7 @@
 
 .baseboard{
     background: #FDFEFF;
+    background: #fff;
     height: 50px;
     display: flex;
     justify-content: center;

@@ -24,7 +24,15 @@
     font-size: 12px;
 }
 
-.paragraphProfile{
+.wrapperForm div:nth-child(2) p {
+    background-color: #eff3f8;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.paragraphProfile {
     color: #4B4B4B;
     font-size: 12px;
     margin-left: 1em;
@@ -50,7 +58,7 @@
 }
 
 .addProfile{
-    font-size: 10px;
+    font-size: 12px;
     color: #0095ff;
 }
 
