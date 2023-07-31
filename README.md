@@ -35,7 +35,7 @@ The tools below were used for the development of the project:
 
 ## Project Contributors
 
-* Pedro Rodrigues - [Linkedin](https://www.linkedin.com/in/pedro-rodrigues-50986a262/) | [GitHub](https://github.com/eupedrorodrigues)
+* Pedro Ricardo Da Silva Rodrigues - [Linkedin](https://www.linkedin.com/in/pedro-rodrigues-50986a262/) | [GitHub](https://github.com/eupedrorodrigues)
 
 * Ariadne De Rezende Tavares - [Linkedin](https://www.linkedin.com/in/ariadne-rezende-13895623b/) | [Github](https://github.com/ariadnerezende)
 
