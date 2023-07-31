@@ -1,0 +1,13 @@
+.wrapperMain{
+    height: 850px;
+    background: #D8E6F2;
+    padding-top: 8%;
+}
+
+.wrapperCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

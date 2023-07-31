@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .formBox {
+    border: 1px solid #ccc;
+    width: 750px;
+    height: 642px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #FDFEFF;
+  }
+  
+  .formBox img {
+    width: 120px;
+    margin-top: 50px;
+  }
+
+  .divImg{
+    width: 150px;
+    height: 100%;
+    margin-right: 50px;
+    margin-left: 30px;
+  }
+  
+  .formBox h2 {
+    color: #ed2590;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .inputBox {
+    position: relative;
+    width: 430px;
+    height: 40px;
+    margin: 24px 0;
+    background: #eff3f8;
+    margin-right: 20px;
+  }
+  
+  .inputBox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 5%;
+    color: #868686;
+  }
+
+  .inputBox select {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 5%;
+    color: #868686;
+  }
+
+  .inputBox textarea {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 5%;
+    color: #868686;
+  }
+  
+  
+  .rememberMe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .rememberMe label {
+    font-size: 13px;
+    color: #868686;
+  }
+  
+  .rememberMe span {
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  .btnLogin {
+    width: 100%;
+    height: 41px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: #ed2590;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-bottom: 24px;
+  }
+  
+  .btnLogin:hover{
+    background: #a41762;
+  }
+
+  .btnCreate {
+    width: 100%;
+    height: 41px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: #FDFEFF;
+    margin-bottom: 22px;
+  }
+  
+  .btnCreate a {
+    color: #ed2590;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .forgot a {
+    color: #ed2590;
+    font-size: 14px;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  
+@media (min-width: 481px) and (max-width: 768px){
+  .formBox{
+    width: 450px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+  .divImg{
+    width: 120px;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1.8%;
+  }
+  .formBox img {
+    width: 120px;
+  }
+  .inputBox {
+    width: 350px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .formBox{
+    width: 280px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+  .divImg{
+    width: 120px;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1.8%;
+  }
+  .formBox img {
+    width: 120px;
+  }
+  .inputBox {
+    width: 240px;
+  }
+}
+
+@media (max-width: 319px){
+  .formBox{
+    width: 280px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+  .divImg{
+    width: 120px;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1.8%;
+  }
+  .formBox img {
+    width: 120px;
+  }
+  .inputBox {
+    width: 240px;
+  }
+}
+  
