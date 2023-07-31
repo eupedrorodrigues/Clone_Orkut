@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Clone Orkut
+## :woman_office_worker::man_office_worker: Project description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Clone Orkut** is a project developed by the scholarship program of the company Compass Uol, with the objective of testing our knowledge and boosting our professional development.
 
-## Available Scripts
+The designer was designed by design [Iuri Silva](https://www.instagram.com/iuricode/) and can be on [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=171980-3522&mode=design&t=ukPA5HGeYBaGWiMJ-0)
 
-In the project directory, you can run:
+![Alt text](image.png)
 
-### `npm start`
+## :woman_office_worker::man_office_worker: Settings and commands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    To run the project you need to have yarn or node.js installed on your computer
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Clone the repository from GitHub
 
-### `npm test`
+  ```bash
+  git clone 
+  cd Clone_Orkut
+  ```
+* To run the project, type in the terminal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```bash
+  yarn start
+     or
+  npm start
+  ```
 
-### `npm run build`
+## Tecnologies 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The tools below were used for the development of the project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [React.js](https://react.dev)
+* [Typescript](https://www.typescriptlang.org)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Contributors
 
-### `npm run eject`
+* Pedro Rodrigues - [Linkedin](https://www.linkedin.com/in/pedro-rodrigues-50986a262/) | [GitHub](https://github.com/eupedrorodrigues)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Ariadne De Rezende Tavares - [Linkedin](https://www.linkedin.com/in/ariadne-rezende-13895623b/) | [Github](https://github.com/ariadnerezende)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Giovana De Andrade Lopes  - [Linkedin](https://www.linkedin.com/in/giovana-lopes-984847251/) | [Github](https://github.com/glopes2003)
