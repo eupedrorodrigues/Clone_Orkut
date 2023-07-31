@@ -19,7 +19,7 @@ const EditProfile = (props: Props) => {
           </div>
           <div className={styles.wrapperFormBtn}>
             <FormEditProfile />
-            <Link className={styles.btnEdit} to={'/pages/Profile'}>Editar perfil</Link>
+            <Link className={styles.btnEdit} to={'/pages/Profile'}>Salvar alterações</Link>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ h1 {
     display: flex;
     justify-content: center;
     background: #D8E6F2;
-    padding-top: 5%;
+    padding-top: 5em;
 }
 
 .wrapperFormFull{
@@ -76,7 +76,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 120%;
-    height: 30px;
+    height: 3em;
     background: #Ed2590;
     color: #fff;
     border-radius: 8px;
@@ -93,7 +93,7 @@ h1 {
 @media (min-width: 481px) and (max-width: 768px){
     .wrapperFormFull{
         width: 90%;
-        height: 780px;
+        height: 55rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -112,7 +112,7 @@ h1 {
 @media (min-width: 320px) and (max-width: 480px){
     .wrapperFormFull{
         width: 85%;
-        height: 820px;
+        height: 60rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -131,7 +131,7 @@ h1 {
 @media (max-width: 319px){
     .wrapperFormFull{
         width: 480px;
-        height: 820px;
+        height: 60rem;
         display: flex;
         flex-direction: column;
         align-items: center;

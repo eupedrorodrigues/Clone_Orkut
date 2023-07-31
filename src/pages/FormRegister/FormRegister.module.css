@@ -25,8 +25,7 @@
 .wrapperMain{
     height: 100%;
     background: #D8E6F2;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding-top: 5em;
 }
 
 .wrapperCards{
@@ -37,9 +36,11 @@
 }
 
 .baseboard{
+    position: absolute;
+    bottom: 0;
     background: #FDFEFF;
-    background: #fff;
-    height: 50px;
+    width: 100%;
+    height: 3em;
     display: flex;
     justify-content: center;
     align-items: center;

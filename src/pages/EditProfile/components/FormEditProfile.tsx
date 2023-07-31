@@ -12,6 +12,7 @@ const FormEditProfile = (props: Props) => {
         </div>
         <div className={styles.formParagraph}>
           <p className={styles.paragraphProfile}>Programar sem café é igual poeta sem poesia.</p>
+          <p className={styles.editProfile}>Editar</p>
         </div>
         <div className={styles.formParagraph}>
           <div>
