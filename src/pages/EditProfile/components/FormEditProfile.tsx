@@ -7,11 +7,11 @@ const FormEditProfile = (props: Props) => {
   return (
     <div className={styles.wrapperForm}>
         <div className={styles.formParagraph}>
-          <h5 className={styles.nameUser}>Iuri Silva</h5>
+          <h3 className={styles.nameUser}>Iuri Silva</h3>
           <p className={styles.editProfile}>Editar</p>
         </div>
         <div className={styles.formParagraph}>
-          <p className={styles.paragraphProfile}>Programar sem café é igual poesia sem poesia.</p>
+          <p className={styles.paragraphProfile}>Programar sem café é igual poeta sem poesia.</p>
         </div>
         <div className={styles.formParagraph}>
           <div>
