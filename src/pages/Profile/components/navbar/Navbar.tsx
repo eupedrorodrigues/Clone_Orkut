@@ -8,7 +8,9 @@ import logo from "../../../../assets/logo-orkut.svg";
 
 import Container from "../container/Container";
 
-function Navbar() {
+type Props = {};
+
+function Navbar(props: Props) {
   return (
     <nav className={styles.navbar}>
       <Container>
@@ -20,7 +22,12 @@ function Navbar() {
           <li className={styles.item}>Jogos</li>
         </ul>
         <div className={styles.input_icon}>
-          <input style={{outline: 'none'}} type="text" placeholder="Pesquisar no Orkut" readOnly />
+          <input
+            style={{ outline: "none" }}
+            type="text"
+            placeholder="Pesquisar no Orkut"
+            readOnly
+          />
           <FaSistrix className={styles.search_icon} />
         </div>
         <div className={styles.input_icon}>

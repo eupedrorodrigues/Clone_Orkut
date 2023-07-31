@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Field.module.css";
 
-function Field() {
+type Props = {};
+
+function Field(props: Props) {
   return (
     <div className={styles.table_info}>
       <div className={styles.info}>
@@ -81,4 +83,5 @@ function Field() {
     </div>
   );
 }
+
 export default Field;

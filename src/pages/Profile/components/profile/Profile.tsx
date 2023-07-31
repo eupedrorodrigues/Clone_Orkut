@@ -3,8 +3,9 @@ import styles from "./Profile.module.css";
 import avatar from "../../../../assets/iuricode 2.svg";
 import { Link } from "react-router-dom";
 
+type Props = {};
 
-function Profile() {
+function Profile(props: Props) {
   return (
     <>
       <article className={styles.profile}>
@@ -14,10 +15,13 @@ function Profile() {
           <p>Solteiro, Brasil</p>
         </section>
         <section className={styles.profile_edition}>
-          <Link className={styles.redirection} to={'/pages/EditProfile'}>{'Editar meu perfil'}</Link>
+          <Link className={styles.redirection} to={"/pages/EditProfile"}>
+            {"Editar meu perfil"}
+          </Link>
         </section>
       </article>
     </>
   );
 }
+
 export default Profile;

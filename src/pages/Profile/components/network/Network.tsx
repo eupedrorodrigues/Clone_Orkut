@@ -2,8 +2,20 @@ import React from "react";
 import styles from "./Network.module.css";
 import Community from "../community/Community";
 
-function Network(props) {
-  let friends = [
+interface NetworkProps {
+  title: string;
+  viewAll: string;
+}
+
+interface NetworkItem {
+  id: number;
+  path: string;
+  name: string;
+}
+
+const Network: React.FC<NetworkProps> = (props) => {
+  const network: NetworkItem[] = [
+
     { id: 1, path: "https://i.imgur.com/g00WRng.png", name: "Fernando" },
     { id: 2, path: "https://i.imgur.com/smEE1fr.png", name: "Ana" },
     { id: 3, path: "https://i.imgur.com/zGWdEfN.png", name: "Carlos" },
@@ -15,7 +27,7 @@ function Network(props) {
     { id: 9, path: "https://i.imgur.com/NrsHF8b.png", name: "Carol" },
   ];
 
-  const friendsGallery = ({ id, path, name }) => (
+  const NetworkGallery: React.FC<NetworkItem> = ({ id, path, name }) => (
     <section key={id}>
       <img alt="random-person" src={path} />
       <label>{name}</label>
@@ -32,7 +44,9 @@ function Network(props) {
               <p>{props.viewAll}</p>
             </header>
             <div className={styles.network_images}>
-              {friends.map(friendsGallery)}
+              {network.map((item) => (
+                 <NetworkGallery key={item.id} {...item} />
+              ))}
             </div>
           </section>
         </article>

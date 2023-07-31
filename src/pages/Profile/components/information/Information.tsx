@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Information.module.css";
 
 import star from "../../../../assets/Star.svg";
@@ -6,8 +5,11 @@ import smile from "../../../../assets/Smiley.svg";
 import thumb from "../../../../assets/ThumbsUp.svg";
 import heart from "../../../../assets/Heart.svg";
 import Field from "../field/Field";
+import React from "react";
 
-function Information() {
+type Props = {};
+
+function Information(props: Props) {
   return (
     <>
       <section className={styles.info}>
